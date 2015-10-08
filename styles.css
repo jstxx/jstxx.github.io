@@ -1,0 +1,159 @@
+ * {
+     padding: 0;
+     margin: 0;
+ }
+ body {
+     width: 100%;
+     margin: 0 auto;
+     max-width: 100%;
+     overflow: hidden;
+ }
+ @media(min-width:37.5rem) {
+     body {
+         width: 80%;
+         margin: 0 auto;
+         border: 1px solid black;
+         margin-top: 30px;
+         max-width: 100%;
+         overflow: hidden;
+     }
+ }
+ a {
+     color: #000;
+ }
+ img {
+     max-width: 100%;
+ }
+ div.img-wrapper,
+ div.stream-info {
+     display: inline-block;
+     margin-left: 20px;
+     vertical-align: middle;
+ }
+ div.stream-info {
+     max-width: 70%;
+     min-width: 300px;
+ }
+ div.stream-container {
+     display: inline-block;
+ }
+ h1.listing-container {
+     display: block;
+     font-size: 2rem;
+     vertical-align: top;
+ }
+ div.game-name {
+     display: inline-block;
+ }
+ img.stream-preview {
+     display: block;
+     max-width: 100px;
+     max-height: 100px;
+     width: auto;
+     height: auto;
+ }
+ ul li {
+     list-style: none;
+ }
+ .viewership {
+     display: inline-block;
+ }
+ li {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     transition: background-color .1s linear;
+     -webkit-transition: background-color .1s linear;
+     -moz-transition: background-color .1s linear;
+     will-change: background-color;
+ }
+ form {
+     padding: 46px 0px 26px 30px;
+ }
+ input[type="text"] {
+     padding: 5px;
+ }
+ input[type="submit"] {
+     padding: 5px 22px 5px 22px;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     outline: none;
+     -moz-box-shadow: 0px 2px 0px 0px #a6abad;
+     -webkit-box-shadow: 0px 2px 0px 0px #a6abad;
+     box-shadow: 0px 2px 0px 0px #a6abad;
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #d1cfd1));
+     background: -moz-linear-gradient(top, #ededed 5%, #d1cfd1 100%);
+     background: -webkit-linear-gradient(top, #ededed 5%, #d1cfd1 100%);
+     background: -o-linear-gradient(top, #ededed 5%, #d1cfd1 100%);
+     background: -ms-linear-gradient(top, #ededed 5%, #d1cfd1 100%);
+     background: linear-gradient(to bottom, #ededed 5%, #d1cfd1 100%);
+     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#d1cfd1', GradientType=0);
+     background-color: #ededed;
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+     border-radius: 3px;
+     border: 1px solid #d6d6d6;
+     display: inline-block;
+     cursor: pointer;
+     color: #636363;
+     font-family: Arial;
+     font-size: 14px;
+     text-decoration: none;
+     text-shadow: 0px 1px 0px #e1e2ed;
+     transition: all .24s linear;
+     -webkit-transition: all .24s linear;
+     -moz-transition: all .24s linear;
+     will-change: color;
+ }
+ input[type="submit"]:hover {
+     color: #000;
+     will-change: color;
+     transition: color .24s linear;
+     -webkit-transition: color .24s linear;
+     -moz-transition: color .24s linear;
+ }
+ ::-webkit-input-placeholder {
+     font-style: italic;
+ }
+ :-moz-placeholder {
+     font-style: italic;
+ }
+ ::-moz-placeholder {
+     font-style: italic;
+ }
+ :-ms-input-placeholder {
+     font-style: italic;
+ }
+ div.controls {
+     display: inline;
+     text-align: right;
+     margin-right: 20px;
+     float: right;
+     font-size: 13px;
+ }
+ div.results {
+     margin-left: 10px;
+     display: inline;
+     font-size: 13px;
+ }
+ div.control-wrapper {
+     margin-top: 10px;
+     visibility: hidden;
+ }
+ span {
+     font-family: Helvetica;
+     color: #666;
+ }
+ li:hover {
+     background-color: #ededed;
+     transition: background-color .1s linear;
+     -webkit-transition: background-color .1s linear;
+     -moz-transition: background-color .1s linear;
+     will-change: background-color;
+ }
+ .queried {
+     border-bottom: 1px solid black;
+ }
+ div.controls > span {
+     padding-right: 5px;
+     padding-left: 5px;
+ }

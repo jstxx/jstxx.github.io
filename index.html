@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <title>Twitch App</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <body>
+    <form name="twitchApp">
+      <input id="querybox" type="text" placeholder="Search query..."/>
+      <input id="search" value="Search" type="submit"/>
+    </form>
+    <div class="control-wrapper">
+      <div class="results">Total results: <span id="result-target"></span></div>
+      <div class="controls">
+        <span id="buttonPrevious">&#9668</span>
+        <span id="page"></span>
+        <span id="buttonNext">&#9658</span>
+      </div>
+    </div>
+    <script type="text/javascript" src="twitchapp.js"></script>
+  </body>
+</html>
