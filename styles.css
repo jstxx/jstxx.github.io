@@ -10,7 +10,7 @@
  }
  @media(min-width:37.5rem) {
      body {
-         width: 80%;
+         width: 70%;
          margin: 0 auto;
          border: 1px solid black;
          margin-top: 30px;
@@ -137,7 +137,7 @@
  }
  div.control-wrapper {
      margin-top: 10px;
-     visibility: hidden;
+     display: none;
  }
  span {
      font-family: Helvetica;
